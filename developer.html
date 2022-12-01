@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles_developer.css">
+
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Fabixn
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="ri-home-5-line"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="ri-trophy-line"></i> Habilidades
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="ri-book-mark-line"></i> Estudios
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="ri-briefcase-line"></i> Servicios
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="ri-image-line"></i> Proyectos
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="ri-message-2-line"></i> Contacto
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__buttons">
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid section__border">
+                    <div class="home__data grid">
+                        <h1 class="home__title">
+                            Hola, Soy Fabixn <br>
+                            Frontend & Backend Developer <br>
+                            En México
+                        </h1>
+
+                        <div class="home__blob grid">
+                            <div class="home__perfil">
+                                <img src="assets/img/yo.png" alt="home perfil">
+                            </div>
+                            <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes">
+                            <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+                        </div>
+
+                        <ul class="home__social">
+                            <a href="https://www.youtube.com/channel/UC49WMvckpy3M9dNobuYRSwg" target="_blank" class="home__social-link">
+                                <i class="ri-youtube-line"></i>
+                            </a>
+                            <a href="https://www.facebook.com/fabian.vazquez.35325074/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/fabianvaz04/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                Biografía
+                            </h3>
+                            <p class="home__info-description">
+                                Hola, soy Fabixn, Frontend & Backend Developer.
+                                Me apasiona programar y diseñar paginas web.
+                                Soy 100% Méxicano.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">
+                                Contacto
+                            </h3>
+                            <p class="home__info-description">
+                                Guadalajara, Jalisco <br>
+                                f.dic52004@gmail.com <br>
+                                +52 3327011050 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">
+                                Servicios
+                            </h3>
+                            <p class="home__info-description">
+                                Website Design <br>
+                                Animation Js <br>
+                                Full Responsive <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                Compañías Trabajadas
+                            </h3>
+
+                            <p class="home__info-number">
+                                05+
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">
+                                Proyectos Completados
+                            </h3>
+
+                            <p class="home__info-number">
+                                2
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">
+                                Compañias Trabajadas
+                            </h3>
+
+                            <p class="home__info-number">
+                                0
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Habilidades</h2>
+                <span class="section__subtitle">Mis habilidades favoritas</span>
+                <div class="skills__container container grid section__border">
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-braces-line"></i> Frontend & Backend Developer
+                        </h3>
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/html-1.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__subtitle">Básico</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/css-3.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__subtitle">Básico</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/logo-javascript.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__subtitle">Básico</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/react-2.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">React Navite</h3>
+                                <span class="skills__subtitle">En proceso de estudio</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/git-icon.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">Git</h3>
+                                <span class="skills__subtitle">Básico</span>
+                            </div>    
+                        </div>
+                    </div>
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-pantone-line"></i> Web Designer
+                        </h3>
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/adobe-xd-1.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">Adobe XD</h3>
+                                <span class="skills__subtitle">Básico</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/adobe-photoshop-2.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">Photoshop</h3>
+                                <span class="skills__subtitle">Básico</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Estudios</h2>
+                <span class="section__subtitle">Experiencia y Educacion</span>
+
+                <div class="qualification__container container grid section__border">
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-pencil-line"></i> Educacion
+                        </h3>
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    Estudiante en Web Developer
+                                </h3>
+                                <span class="qualification__country">México - Bachillerato Tecnológico</span>
+                                <span class="qualification__year"> 2019 - 2022</span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__name">
+                                    Técnico en Informática
+                                </h3>
+                                <span class="qualification__country">México - Bachillerato Tecnológico</span>
+                                <span class="qualification__year">2017-2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Servicios</h2>
+                <span class="section__subtitle">Lo que ofrezco</span>
+
+                <div class="services__container container grid sction__border">
+                    <div class="services__card">
+                        <i class="ri-layout-2-line"></i>
+                        <h2 class="services__title">
+                            UI/UX <br>
+                            Designer
+                        </h2>
+
+                        <p class="services__description">
+                            Servicio que brinda la mejor calidad
+                            a solicitud del cliente, con un
+                            trabajo profesional y total atención al cliente.
+                        </p>
+
+                        <div class="services__border">
+
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <i class="ri-code-line"></i>
+                        <h2 class="services__title">
+                            Website <br>
+                            Design
+                        </h2>
+
+                        <p class="services__description">
+                            Servicio que brinda la mejor calidad
+                            a solicitud del cliente, con un
+                            trabajo profesional y total atención al cliente.
+                        </p>
+
+                        <div class="services__border">
+                            
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <i class="ri-quill-pen-line"></i>
+                        <h2 class="services__title">
+                            Digital <br>
+                            Animator
+                        </h2>
+
+                        <p class="services__description">
+                            Servicio que brinda la mejor calidad
+                            a solicitud del cliente, con un
+                            trabajo profesional y total atención al cliente.
+                        </p>
+
+                        <div class="services__border">
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECTS ====================-->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Proyectos</h2>
+                <span class="section__subtitle">
+                    Mi más reciente trabajo
+                </span>
+                <div class="container section__border">
+                    <div class="projects__container swiper">
+                        <div class="swiper-wrapper">
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project1.png" alt="projects image" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h1 class="projects__title">Sitio web Florería</h1>
+                                    <a href="#" class="projects__button">
+                                        Ver demostración <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project2.png" alt="projects image" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h1 class="projects__title">ECommerce Store</h1>
+                                    <a href="#" class="projects__button">
+                                        Ver demostración <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project3.png" alt="projects image" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h1 class="projects__title">Sitio web Acuario Flipper</h1>
+                                    <a href="#" class="projects__button">
+                                        Ver demostración <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div> 
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                <h2 class="section__title">Testimonios</h2>
+                <span class="section__subtitle">Mi cliente dijo</span>
+                <div class="container section__border">
+                    <div class="testimonial__container swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__content swiper-slide">
+                                <p class="testimonial__description">    
+                                    "Al trabajar con Fabixn me dio una buena
+                                    impresión, realizo mi proyecto a un buen
+                                    costo, con excelente calidad y atención.
+                                    Gran servicio y recomendado. "
+                                </p>
+
+                                <div>
+                                    <h3 class="testimonial__name">Hugo Sanchez</h3>
+                                    <span class="testimonial__subtitle">Cliente</span>
+                                </div>
+                            </div>
+                            <div class="testimonial__content swiper-slide">
+                                <p class="testimonial__description">    
+                                    "Al trabajar con Fabixn me dio una buena
+                                    impresión, realizo mi proyecto a un buen
+                                    costo, con excelente calidad y atención.
+                                    Gran servicio y recomendado. "
+                                </p>
+
+                                <div>
+                                    <h3 class="testimonial__name">Paulo Alejandro</h3>
+                                    <span class="testimonial__subtitle">Cliente</span>
+                                </div>
+                            </div>
+                            <div class="testimonial__content swiper-slide">
+                                <p class="testimonial__description">    
+                                    "Al trabajar con Fabixn me dio una buena
+                                    impresión, realizo mi proyecto a un buen
+                                    costo, con excelente calidad y atención.
+                                    Gran servicio y recomendado. "
+                                </p>
+
+                                <div>
+                                    <h3 class="testimonial__name">Alan Duran</h3>
+                                    <span class="testimonial__subtitle">Cliente</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <img src="assets/img/shape-wawes.svg" alt="testimonial image" class="testimonial__img">
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contactame</h2>
+                <span class="section__subtitle">Ponte en contacto</span>
+
+                <div class="contact__container container grid section__border">
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-chat-1-line"></i> Hablame
+                        </h3>
+
+                        <div class="contact__info">
+                            <div class="contact__data">
+                                <span class="contact__data-title">Email</span>
+                                <span class="contact__data-info">f.dic52004@gmail.com</span>
+                            </div>
+                            <div class="contact__data">
+                                <span class="contact__data-title">Whatsapp</span>
+                                <span class="contact__data-info">+52 3327011050</span>
+                                <a href="https://api.whatsapp.com/send?phone=523327011050&text=¡Hola, quiero mas informacion!" target="_blank" class="contact__button">Escríbeme <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                            <div class="contact__data">
+                                <span class="contact__data-title">Mesenger</span>
+                                <span class="contact__data-info">@fabian.vazquez.35325074</span>
+                                <a href="https://m.me/fabian.vazquez.35325074" target="_blank" class="contact__button">Escríbeme <i class="ri-arrow-right-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-send-plane-line"></i> Escríbeme tu proyecto
+                        </h3>
+
+                        <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Nombre</label>
+                                <input type="text" name="user_name" required placeholder="Escribe tu nombre" class="contact__form-input" id="contact-name">
+                            </div>
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Correo electronico</label>
+                                <input type="email" name="user_email" required placeholder="Escribe tu correo electronico" class="contact__form-input" id="contact-email">
+                            </div>
+                            <div class="contact__form-div contact-form-area">
+                                <label class="contact__form-tag">Proyecto</label>
+                                <textarea name="user_project" placeholder="Escribe tu proyecto" id="contact-project" class="contact__form-input"></textarea>
+                            </div>
+                            
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="contact__button">
+                               Enviar <i class="ri-arrow-right-up-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Fabixn</h1>
+                <p>Frontend & Backend Developer</p>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Proyectos</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.youtube.com/channel/UC49WMvckpy3M9dNobuYRSwg" target="_blank" class="footer__social-link">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+                    <a href="https://www.facebook.com/fabian.vazquez.35325074/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/fabianvaz04/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                    &#169; Copyright Fabixn. All rights reserved.
+                </span>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== EMAIL JS ===============-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main_developer.js"></script>
+    </body>
+</html>
